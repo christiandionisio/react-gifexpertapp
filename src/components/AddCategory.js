@@ -25,6 +25,7 @@ export const AddCategory = ({setCategories}) => {
             type="text"
             value={inputValue}
             onChange={handleInputChange}
+            placeholder="Escribir aquí"
         /> 
     </form>
   )
